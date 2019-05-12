@@ -1,0 +1,4 @@
+load STM32F401RETx 
+project name STCubeGenerated 
+project toolchain "MDK-ARM V5" 
+project path "C:\Users\emiel\School\Mircocontrollers\Labopdracht 3 - BLE en NFC\Labopdracht 3.4 - NFC\MDK-ARM\RTE\Device\STM32F401RETx\" 
