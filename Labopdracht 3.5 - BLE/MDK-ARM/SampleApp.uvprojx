@@ -448,91 +448,99 @@
           <GroupName>Drivers/STM32F4xx_HAL_Driver</GroupName>
           <Files>
             <File>
-              <FileName>stm32f4xx_hal_spi.c</FileName>
+              <FileName>stm32f4xx_hal.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_tim.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_tim_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_rcc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_rcc_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_flash_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_flash_ramfunc.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_gpio.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_dma_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_dma.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_pwr.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c</FilePath>
-            </File>
-            <File>
-              <FileName>stm32f4xx_hal_pwr_ex.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c</FilePath>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_hal_cortex.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c</FilePath>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c</FilePath>
             </File>
             <File>
-              <FileName>stm32f4xx_hal.c</FileName>
+              <FileName>stm32f4xx_hal_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c</FilePath>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_dma_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c</FilePath>
             </File>
             <File>
               <FileName>stm32f4xx_hal_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c</FilePath>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_flash.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_flash_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_flash_ramfunc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_pwr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_pwr_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_rcc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_rcc_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_tim_ex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f4xx_hal_usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_usart.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
         <Group>
           <GroupName>Middlewares/BlueNRG-MS/Wireless/Controller</GroupName>
@@ -540,32 +548,32 @@
             <File>
               <FileName>bluenrg_gap_aci.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_gap_aci.c</FilePath>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\hci\controller\bluenrg_gap_aci.c</FilePath>
             </File>
             <File>
               <FileName>bluenrg_gatt_aci.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_gatt_aci.c</FilePath>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\hci\controller\bluenrg_gatt_aci.c</FilePath>
             </File>
             <File>
               <FileName>bluenrg_hal_aci.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_hal_aci.c</FilePath>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\hci\controller\bluenrg_hal_aci.c</FilePath>
             </File>
             <File>
               <FileName>bluenrg_l2cap_aci.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_l2cap_aci.c</FilePath>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\hci\controller\bluenrg_l2cap_aci.c</FilePath>
             </File>
             <File>
               <FileName>bluenrg_updater_aci.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c</FilePath>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\hci\controller\bluenrg_updater_aci.c</FilePath>
             </File>
             <File>
               <FileName>bluenrg_utils_small.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_utils_small.c</FilePath>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\hci\controller\bluenrg_utils_small.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -573,14 +581,14 @@
           <GroupName>Middlewares/BlueNRG-MS/Wireless/HCI_TL/Basic</GroupName>
           <Files>
             <File>
-              <FileName>hci_tl.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c</FilePath>
-            </File>
-            <File>
               <FileName>hci_le.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/hci_le.c</FilePath>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\hci\hci_le.c</FilePath>
+            </File>
+            <File>
+              <FileName>hci_tl.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\hci\hci_tl_patterns\Basic\hci_tl.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -590,12 +598,9 @@
             <File>
               <FileName>ble_list.c</FileName>
               <FileType>1</FileType>
-              <FilePath>C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/utils/ble_list.c</FilePath>
+              <FilePath>..\Middlewares\ST\BlueNRG-MS\utils\ble_list.c</FilePath>
             </File>
           </Files>
-        </Group>
-        <Group>
-          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>

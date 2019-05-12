@@ -1,4 +1,4 @@
-sampleapp\hci_tl.o: C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.c
+sampleapp\hci_tl.o: ..\Middlewares\ST\BlueNRG-MS\hci\hci_tl_patterns\Basic\hci_tl.c
 sampleapp\hci_tl.o: ..\Middlewares\ST\BlueNRG-MS\includes\hci_const.h
 sampleapp\hci_tl.o: ..\Middlewares\ST\BlueNRG-MS\includes\link_layer.h
 sampleapp\hci_tl.o: ..\Middlewares\ST\BlueNRG-MS\includes\bluenrg_def.h
@@ -43,4 +43,3 @@ sampleapp\hci_tl.o: ..\Inc\bluenrg_conf.h
 sampleapp\hci_tl.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 sampleapp\hci_tl.o: ..\Middlewares\ST\BlueNRG-MS\includes\compiler.h
 sampleapp\hci_tl.o: ..\Middlewares\ST\BlueNRG-MS\includes\hci.h
-sampleapp\hci_tl.o: C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/hci_tl_patterns/Basic/hci_tl.h

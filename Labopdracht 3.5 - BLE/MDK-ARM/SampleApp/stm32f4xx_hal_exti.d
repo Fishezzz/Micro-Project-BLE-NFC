@@ -1,4 +1,4 @@
-sampleapp\stm32f4xx_hal_exti.o: C:/Users/emiel/STM32Cube/Repository/STM32Cube_FW_F4_V1.24.1/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+sampleapp\stm32f4xx_hal_exti.o: ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 sampleapp\stm32f4xx_hal_exti.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
 sampleapp\stm32f4xx_hal_exti.o: ..\Inc\stm32f4xx_hal_conf.h
 sampleapp\stm32f4xx_hal_exti.o: ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h

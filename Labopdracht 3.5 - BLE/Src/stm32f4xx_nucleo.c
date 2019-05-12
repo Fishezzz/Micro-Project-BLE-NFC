@@ -540,7 +540,7 @@ int32_t BSP_COM_SelectLogPort(COM_TypeDef COM)
  * @param  huart USART2 handle
  * @retval None
  */
-DMA_HandleTypeDef hdma_usart2_tx;
+extern DMA_HandleTypeDef hdma_usart2_tx;
 
 static void USART2_MspInit(UART_HandleTypeDef* uartHandle)
 {
@@ -552,10 +552,10 @@ static void USART2_MspInit(UART_HandleTypeDef* uartHandle)
     __HAL_RCC_USART2_CLK_ENABLE();
   
     __HAL_RCC_GPIOA_CLK_ENABLE();
-    /**USART2 GPIO Configuration    
-    PA2     ------> USART2_TX
-    PA3     ------> USART2_RX 
-    */
+    /**	USART2 GPIO Configuration    
+			* PA2     ------> USART2_TX
+			* PA3     ------> USART2_RX 
+			*/
     GPIO_InitStruct.Pin = USART2_TX_Pin|USART2_RX_Pin;
     GPIO_InitStruct.Mode = GPIO_MODE_AF_PP;
     GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -583,8 +583,10 @@ static void USART2_MspInit(UART_HandleTypeDef* uartHandle)
   __HAL_LINKDMA(uartHandle,hdmatx,hdma_usart2_tx);
 
   /* USER CODE BEGIN USART2_MspInit 1 */
-
-  /* USER CODE END USART2_MspInit 1 */
+  /* DMA interrupt init */
+  HAL_NVIC_SetPriority(DMA1_Stream6_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Stream6_IRQn);
+	/* USER CODE END USART2_MspInit 1 */
 }
 
 static void USART2_MspDeInit(UART_HandleTypeDef* uartHandle)

@@ -1,4 +1,4 @@
-sampleapp\hci_le.o: C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/hci_le.c
+sampleapp\hci_le.o: ..\Middlewares\ST\BlueNRG-MS\hci\hci_le.c
 sampleapp\hci_le.o: ..\Middlewares\ST\BlueNRG-MS\includes\hci_le.h
 sampleapp\hci_le.o: ..\Middlewares\ST\BlueNRG-MS\includes\bluenrg_types.h
 sampleapp\hci_le.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

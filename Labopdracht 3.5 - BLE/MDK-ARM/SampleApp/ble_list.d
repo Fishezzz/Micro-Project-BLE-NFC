@@ -1,5 +1,5 @@
-sampleapp\ble_list.o: C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/utils/ble_list.c
-sampleapp\ble_list.o: C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/utils/ble_list.h
+sampleapp\ble_list.o: ..\Middlewares\ST\BlueNRG-MS\utils\ble_list.c
+sampleapp\ble_list.o: ..\Middlewares\ST\BlueNRG-MS\utils\ble_list.h
 sampleapp\ble_list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 sampleapp\ble_list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 sampleapp\ble_list.o: ..\Inc\ble_list_utils.h

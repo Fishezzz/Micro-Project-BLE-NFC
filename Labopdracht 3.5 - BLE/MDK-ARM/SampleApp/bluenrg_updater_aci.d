@@ -1,4 +1,4 @@
-sampleapp\bluenrg_updater_aci.o: C:/Users/emiel/STM32Cube/Repository//Packs/STMicroelectronics/X-CUBE-BLE1/4.3.0/Middlewares/ST/BlueNRG-MS/hci/controller/bluenrg_updater_aci.c
+sampleapp\bluenrg_updater_aci.o: ..\Middlewares\ST\BlueNRG-MS\hci\controller\bluenrg_updater_aci.c
 sampleapp\bluenrg_updater_aci.o: ..\Middlewares\ST\BlueNRG-MS\includes\bluenrg_def.h
 sampleapp\bluenrg_updater_aci.o: ..\Middlewares\ST\BlueNRG-MS\includes\bluenrg_types.h
 sampleapp\bluenrg_updater_aci.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h

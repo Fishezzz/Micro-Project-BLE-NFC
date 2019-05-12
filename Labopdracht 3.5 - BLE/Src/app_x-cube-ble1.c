@@ -75,7 +75,9 @@ extern volatile uint8_t end_read_tx_char_handle;
 extern volatile uint8_t end_read_rx_char_handle;
 
 /* USER CODE BEGIN PV */
-
+extern uint8_t dma_buffer[255];
+extern UART_HandleTypeDef huart1;
+extern DMA_HandleTypeDef hdma_usart1_rx;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -111,8 +113,8 @@ void MX_BlueNRG_MS_Init(void)
   /* USER CODE END BlueNRG_MS_Init_PreTreatment */
 
   /* Initialize the peripherals and the BLE Stack */
-  uint8_t CLIENT_BDADDR[] = {0xbb, 0x00, 0x00, 0xE1, 0x80, 0x02};
-  uint8_t SERVER_BDADDR[] = {0xaa, 0x00, 0x00, 0xE1, 0x80, 0x02};
+  uint8_t CLIENT_BDADDR[] = {0xee, 0xee, 0xb1, 0x69, 0x69, 0x69};
+  uint8_t SERVER_BDADDR[] = {0x69, 0x69, 0x69, 0xee, 0xee, 0xb1};
   uint8_t bdaddr[BDADDR_SIZE];
   uint16_t service_handle, dev_name_char_handle, appearance_char_handle;
   
@@ -244,7 +246,7 @@ void MX_BlueNRG_MS_Process(void)
 static void User_Init(void)
 {
   BSP_PB_Init(BUTTON_KEY, BUTTON_MODE_EXTI);
-  BSP_LED_Init(LED2);
+//  BSP_LED_Init(LED2);
     
   BSP_COM_Init(COM1); 
 }
@@ -296,18 +298,28 @@ static void User_Process(void)
     /* Debouncing */
     HAL_Delay(50);
     
-    if (connected && notification_enabled)
+    if (connected)
     {
-      /* Send a toggle command to the remote device */
-      uint8_t data[20] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J'};
-      sendData(data, sizeof(data));
-      
-      //BSP_LED_Toggle(LED2);  /* Toggle the LED2 locally. */
-                               /* If uncommented be sure the BSP_LED_Init(LED2)
-                                * is called in main().
-                                * E.g. it can be enabled for debugging. */
+			if (notification_enabled)
+			{
+				/* Send a toggle command to the remote device */
+				uint8_t data[20] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J'};
+				sendData(data, sizeof(data));
+				
+				//BSP_LED_Toggle(LED2);  /* Toggle the LED2 locally. */
+																 /* If uncommented be sure the BSP_LED_Init(LED2)
+																	* is called in main().
+																	* E.g. it can be enabled for debugging. */
+			}
     }
-    
+    	
+		if (/*connected &&*/ huart1.RxState == HAL_UART_STATE_READY)
+		{
+			scanf("%s", dma_buffer);
+			printf("%s", dma_buffer);
+			HAL_UART_Receive_DMA(&huart1, dma_buffer, sizeof(dma_buffer)); 
+		}
+
     /* Reset the User Button flag */
     user_button_pressed = 0;
   } 

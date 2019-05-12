@@ -148,7 +148,7 @@ void Make_Connection(void)
   if(BLE_Role == CLIENT) {
     
     printf("Client Create Connection\n");
-    tBDAddr bdaddr = {0xaa, 0x00, 0x00, 0xE1, 0x80, 0x02};
+    tBDAddr bdaddr = {0xee, 0xee, 0xee, 0x69, 0x69, 0x69};
     
     BSP_LED_On(LED2); //To indicate the start of the connection and discovery phase
     
@@ -166,7 +166,7 @@ void Make_Connection(void)
     
   } else  {
     
-    const char local_name[] = {AD_TYPE_COMPLETE_LOCAL_NAME,'B','l','u','e','N','R','G','_','C','h','a','t'};
+    const char local_name[] = {AD_TYPE_COMPLETE_LOCAL_NAME,'B','l','u','e','N','R','G','_','F','O','E','F'};
     
     /* disable scan response */
     hci_le_set_scan_resp_data(0,NULL);
