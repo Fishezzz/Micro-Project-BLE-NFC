@@ -540,9 +540,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>::CMSIS</GroupName>
-        </Group>
-        <Group>
           <GroupName>Middlewares/BlueNRG-MS/Wireless/Controller</GroupName>
           <Files>
             <File>
@@ -601,6 +598,9 @@
               <FilePath>..\Middlewares\ST\BlueNRG-MS\utils\ble_list.c</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>
